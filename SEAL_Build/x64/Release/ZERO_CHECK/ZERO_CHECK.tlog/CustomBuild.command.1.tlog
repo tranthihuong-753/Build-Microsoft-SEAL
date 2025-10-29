@@ -1,0 +1,10 @@
+^C:\BUILD-MICROSOFT-SEAL\SEAL_BUILD\CMAKEFILES\310C945020A7FB82085ACEE0A6F2A250\GENERATE.STAMP.RULE
+setlocal
+C:\Users\mo\Downloads\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\mingw64\bin\cmake.exe -SC:/Build-Microsoft-SEAL/SEAL -BC:/Build-Microsoft-SEAL/SEAL_Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Build-Microsoft-SEAL/SEAL_Build/SEAL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

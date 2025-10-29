@@ -15,3 +15,10 @@
 - cd SEAL_Build 
 
 - cmake ..\SEAL -G "Visual Studio 17 2022" 
+
+
+## Build SEAL 
+
+- cd SEAL_Build 
+
+- cmake --build . --config Release
