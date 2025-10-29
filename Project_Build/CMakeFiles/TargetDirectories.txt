@@ -1,0 +1,3 @@
+C:/Build-Microsoft-SEAL/Project_Build/CMakeFiles/tests-build.dir
+C:/Build-Microsoft-SEAL/Project_Build/CMakeFiles/ALL_BUILD.dir
+C:/Build-Microsoft-SEAL/Project_Build/CMakeFiles/ZERO_CHECK.dir

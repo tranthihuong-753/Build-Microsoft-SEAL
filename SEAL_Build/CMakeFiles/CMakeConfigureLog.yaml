@@ -68,7 +68,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.23+b0019275e for .NET Framework
-      Build started 10/29/2025 5:04:42 PM.
+      Build started 10/29/2025 6:51:56 PM.
       
       Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -97,7 +97,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.99
+      Time Elapsed 00:00:00.84
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -577,7 +577,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.23+b0019275e for .NET Framework
-      Build started 10/29/2025 5:04:44 PM.
+      Build started 10/29/2025 6:51:58 PM.
       
       Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -606,7 +606,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.68
+      Time Elapsed 00:00:00.89
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -906,8 +906,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-h5ky9k"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-h5ky9k"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-dfwt38"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-dfwt38"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -917,40 +917,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-h5ky9k'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-dfwt38'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63a16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f1eab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:04:45 PM.
+        Build started 10/29/2025 6:51:59 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ky9k\\cmTC_63a16.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-dfwt38\\cmTC_f1eab.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_63a16.dir\\Debug\\".
+          Creating directory "cmTC_f1eab.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ky9k\\Debug\\".
-          Creating directory "cmTC_63a16.dir\\Debug\\cmTC_63a16.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-dfwt38\\Debug\\".
+          Creating directory "cmTC_f1eab.dir\\Debug\\cmTC_f1eab.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_63a16.dir\\Debug\\cmTC_63a16.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_63a16.dir\\Debug\\cmTC_63a16.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f1eab.dir\\Debug\\cmTC_f1eab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f1eab.dir\\Debug\\cmTC_f1eab.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_63a16.dir\\Debug\\\\" /Fd"cmTC_63a16.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_f1eab.dir\\Debug\\\\" /Fd"cmTC_f1eab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_63a16.dir\\Debug\\\\" /Fd"cmTC_63a16.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_f1eab.dir\\Debug\\\\" /Fd"cmTC_f1eab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ky9k\\Debug\\cmTC_63a16.exe" /INCREMENTAL /ILK:"cmTC_63a16.dir\\Debug\\cmTC_63a16.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-h5ky9k/Debug/cmTC_63a16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-h5ky9k/Debug/cmTC_63a16.lib" /MACHINE:X64  /machine:x64 cmTC_63a16.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_63a16.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ky9k\\Debug\\cmTC_63a16.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-dfwt38\\Debug\\cmTC_f1eab.exe" /INCREMENTAL /ILK:"cmTC_f1eab.dir\\Debug\\cmTC_f1eab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-dfwt38/Debug/cmTC_f1eab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-dfwt38/Debug/cmTC_f1eab.lib" /MACHINE:X64  /machine:x64 cmTC_f1eab.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f1eab.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-dfwt38\\Debug\\cmTC_f1eab.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_63a16.dir\\Debug\\cmTC_63a16.tlog\\unsuccessfulbuild".
-          Touching "cmTC_63a16.dir\\Debug\\cmTC_63a16.tlog\\cmTC_63a16.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ky9k\\cmTC_63a16.vcxproj" (default targets).
+          Deleting file "cmTC_f1eab.dir\\Debug\\cmTC_f1eab.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f1eab.dir\\Debug\\cmTC_f1eab.tlog\\cmTC_f1eab.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-dfwt38\\cmTC_f1eab.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.68
+        Time Elapsed 00:00:00.76
         
       exitCode: 0
   -
@@ -990,8 +990,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-18cwj9"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-18cwj9"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-awnmr6"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-awnmr6"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1000,40 +1000,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-18cwj9'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-awnmr6'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a1fbf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_07775.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:04:46 PM.
+        Build started 10/29/2025 6:52:00 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-18cwj9\\cmTC_a1fbf.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-awnmr6\\cmTC_07775.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_a1fbf.dir\\Debug\\".
+          Creating directory "cmTC_07775.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-18cwj9\\Debug\\".
-          Creating directory "cmTC_a1fbf.dir\\Debug\\cmTC_a1fbf.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-awnmr6\\Debug\\".
+          Creating directory "cmTC_07775.dir\\Debug\\cmTC_07775.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a1fbf.dir\\Debug\\cmTC_a1fbf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a1fbf.dir\\Debug\\cmTC_a1fbf.tlog\\unsuccessfulbuild".
+          Creating "cmTC_07775.dir\\Debug\\cmTC_07775.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_07775.dir\\Debug\\cmTC_07775.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a1fbf.dir\\Debug\\\\" /Fd"cmTC_a1fbf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_07775.dir\\Debug\\\\" /Fd"cmTC_07775.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a1fbf.dir\\Debug\\\\" /Fd"cmTC_a1fbf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_07775.dir\\Debug\\\\" /Fd"cmTC_07775.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\mo\\Downloads\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\\mingw64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-18cwj9\\Debug\\cmTC_a1fbf.exe" /INCREMENTAL /ILK:"cmTC_a1fbf.dir\\Debug\\cmTC_a1fbf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-18cwj9/Debug/cmTC_a1fbf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-18cwj9/Debug/cmTC_a1fbf.lib" /MACHINE:X64  /machine:x64 cmTC_a1fbf.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_a1fbf.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-18cwj9\\Debug\\cmTC_a1fbf.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-awnmr6\\Debug\\cmTC_07775.exe" /INCREMENTAL /ILK:"cmTC_07775.dir\\Debug\\cmTC_07775.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-awnmr6/Debug/cmTC_07775.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-awnmr6/Debug/cmTC_07775.lib" /MACHINE:X64  /machine:x64 cmTC_07775.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_07775.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-awnmr6\\Debug\\cmTC_07775.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_a1fbf.dir\\Debug\\cmTC_a1fbf.tlog\\unsuccessfulbuild".
-          Touching "cmTC_a1fbf.dir\\Debug\\cmTC_a1fbf.tlog\\cmTC_a1fbf.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-18cwj9\\cmTC_a1fbf.vcxproj" (default targets).
+          Deleting file "cmTC_07775.dir\\Debug\\cmTC_07775.tlog\\unsuccessfulbuild".
+          Touching "cmTC_07775.dir\\Debug\\cmTC_07775.tlog\\cmTC_07775.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-awnmr6\\cmTC_07775.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.64
+        Time Elapsed 00:00:00.84
         
       exitCode: 0
   -
@@ -1263,8 +1263,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-s0w02v"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-s0w02v"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-21nmuo"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-21nmuo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1275,90 +1275,34 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-s0w02v'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-21nmuo'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fb885.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9df87.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:01 PM.
+        Build started 10/29/2025 6:52:27 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-s0w02v\\cmTC_fb885.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-21nmuo\\cmTC_9df87.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_fb885.dir\\Debug\\".
+          Creating directory "cmTC_9df87.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-s0w02v\\Debug\\".
-          Creating directory "cmTC_fb885.dir\\Debug\\cmTC_fb885.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-21nmuo\\Debug\\".
+          Creating directory "cmTC_9df87.dir\\Debug\\cmTC_9df87.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fb885.dir\\Debug\\cmTC_fb885.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fb885.dir\\Debug\\cmTC_fb885.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9df87.dir\\Debug\\cmTC_9df87.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9df87.dir\\Debug\\cmTC_9df87.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fb885.dir\\Debug\\\\" /Fd"cmTC_fb885.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-s0w02v\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9df87.dir\\Debug\\\\" /Fd"cmTC_9df87.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-21nmuo\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_fb885.dir\\Debug\\\\" /Fd"cmTC_fb885.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-s0w02v\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9df87.dir\\Debug\\\\" /Fd"cmTC_9df87.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-21nmuo\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-s0w02v\\Debug\\cmTC_fb885.exe" /INCREMENTAL /ILK:"cmTC_fb885.dir\\Debug\\cmTC_fb885.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-s0w02v/Debug/cmTC_fb885.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-s0w02v/Debug/cmTC_fb885.lib" /MACHINE:X64  /machine:x64 cmTC_fb885.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_fb885.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-s0w02v\\Debug\\cmTC_fb885.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-21nmuo\\Debug\\cmTC_9df87.exe" /INCREMENTAL /ILK:"cmTC_9df87.dir\\Debug\\cmTC_9df87.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-21nmuo/Debug/cmTC_9df87.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-21nmuo/Debug/cmTC_9df87.lib" /MACHINE:X64  /machine:x64 cmTC_9df87.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_9df87.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-21nmuo\\Debug\\cmTC_9df87.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_fb885.dir\\Debug\\cmTC_fb885.tlog\\unsuccessfulbuild".
-          Touching "cmTC_fb885.dir\\Debug\\cmTC_fb885.tlog\\cmTC_fb885.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-s0w02v\\cmTC_fb885.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.88
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Users/mo/Downloads/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2/mingw64/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
-      - "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-src/CMakeLists.txt:23 (check_include_file)"
-    checks:
-      - "Looking for stdint.h"
-    directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zp7inz"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zp7inz"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Build-Microsoft-SEAL/SEAL/cmake"
-      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
-    buildResult:
-      variable: "HAVE_STDINT_H"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zp7inz'
-        
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef4c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:02 PM.
-        
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zp7inz\\cmTC_ef4c5.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_ef4c5.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zp7inz\\Debug\\".
-          Creating directory "cmTC_ef4c5.dir\\Debug\\cmTC_ef4c5.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_ef4c5.dir\\Debug\\cmTC_ef4c5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ef4c5.dir\\Debug\\cmTC_ef4c5.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ef4c5.dir\\Debug\\\\" /Fd"cmTC_ef4c5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zp7inz\\CheckIncludeFile.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ef4c5.dir\\Debug\\\\" /Fd"cmTC_ef4c5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zp7inz\\CheckIncludeFile.c"
-          CheckIncludeFile.c
-        Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zp7inz\\Debug\\cmTC_ef4c5.exe" /INCREMENTAL /ILK:"cmTC_ef4c5.dir\\Debug\\cmTC_ef4c5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zp7inz/Debug/cmTC_ef4c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zp7inz/Debug/cmTC_ef4c5.lib" /MACHINE:X64  /machine:x64 cmTC_ef4c5.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_ef4c5.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zp7inz\\Debug\\cmTC_ef4c5.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_ef4c5.dir\\Debug\\cmTC_ef4c5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ef4c5.dir\\Debug\\cmTC_ef4c5.tlog\\cmTC_ef4c5.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zp7inz\\cmTC_ef4c5.vcxproj" (default targets).
+          Deleting file "cmTC_9df87.dir\\Debug\\cmTC_9df87.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9df87.dir\\Debug\\cmTC_9df87.tlog\\cmTC_9df87.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-21nmuo\\cmTC_9df87.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -1371,12 +1315,68 @@ events:
     kind: "try_compile-v1"
     backtrace:
       - "C:/Users/mo/Downloads/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2/mingw64/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-src/CMakeLists.txt:23 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q97raz"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q97raz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Build-Microsoft-SEAL/SEAL/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q97raz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8b0e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 10/29/2025 6:52:28 PM.
+        
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q97raz\\cmTC_8b0e4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8b0e4.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q97raz\\Debug\\".
+          Creating directory "cmTC_8b0e4.dir\\Debug\\cmTC_8b0e4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8b0e4.dir\\Debug\\cmTC_8b0e4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8b0e4.dir\\Debug\\cmTC_8b0e4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8b0e4.dir\\Debug\\\\" /Fd"cmTC_8b0e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q97raz\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8b0e4.dir\\Debug\\\\" /Fd"cmTC_8b0e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q97raz\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q97raz\\Debug\\cmTC_8b0e4.exe" /INCREMENTAL /ILK:"cmTC_8b0e4.dir\\Debug\\cmTC_8b0e4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q97raz/Debug/cmTC_8b0e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q97raz/Debug/cmTC_8b0e4.lib" /MACHINE:X64  /machine:x64 cmTC_8b0e4.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8b0e4.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q97raz\\Debug\\cmTC_8b0e4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8b0e4.dir\\Debug\\cmTC_8b0e4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8b0e4.dir\\Debug\\cmTC_8b0e4.tlog\\cmTC_8b0e4.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q97raz\\cmTC_8b0e4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/mo/Downloads/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2/mingw64/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
       - "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-src/CMakeLists.txt:24 (check_include_file)"
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u4d82d"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u4d82d"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-lwl02q"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-lwl02q"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1387,40 +1387,40 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u4d82d'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-lwl02q'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b40c0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41657.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:03 PM.
+        Build started 10/29/2025 6:52:29 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u4d82d\\cmTC_b40c0.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-lwl02q\\cmTC_41657.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b40c0.dir\\Debug\\".
+          Creating directory "cmTC_41657.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u4d82d\\Debug\\".
-          Creating directory "cmTC_b40c0.dir\\Debug\\cmTC_b40c0.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-lwl02q\\Debug\\".
+          Creating directory "cmTC_41657.dir\\Debug\\cmTC_41657.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b40c0.dir\\Debug\\cmTC_b40c0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b40c0.dir\\Debug\\cmTC_b40c0.tlog\\unsuccessfulbuild".
+          Creating "cmTC_41657.dir\\Debug\\cmTC_41657.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_41657.dir\\Debug\\cmTC_41657.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b40c0.dir\\Debug\\\\" /Fd"cmTC_b40c0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u4d82d\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_41657.dir\\Debug\\\\" /Fd"cmTC_41657.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-lwl02q\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b40c0.dir\\Debug\\\\" /Fd"cmTC_b40c0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u4d82d\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_41657.dir\\Debug\\\\" /Fd"cmTC_41657.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-lwl02q\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u4d82d\\Debug\\cmTC_b40c0.exe" /INCREMENTAL /ILK:"cmTC_b40c0.dir\\Debug\\cmTC_b40c0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u4d82d/Debug/cmTC_b40c0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u4d82d/Debug/cmTC_b40c0.lib" /MACHINE:X64  /machine:x64 cmTC_b40c0.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_b40c0.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u4d82d\\Debug\\cmTC_b40c0.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-lwl02q\\Debug\\cmTC_41657.exe" /INCREMENTAL /ILK:"cmTC_41657.dir\\Debug\\cmTC_41657.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-lwl02q/Debug/cmTC_41657.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-lwl02q/Debug/cmTC_41657.lib" /MACHINE:X64  /machine:x64 cmTC_41657.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_41657.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-lwl02q\\Debug\\cmTC_41657.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b40c0.dir\\Debug\\cmTC_b40c0.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b40c0.dir\\Debug\\cmTC_b40c0.tlog\\cmTC_b40c0.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u4d82d\\cmTC_b40c0.vcxproj" (default targets).
+          Deleting file "cmTC_41657.dir\\Debug\\cmTC_41657.tlog\\unsuccessfulbuild".
+          Touching "cmTC_41657.dir\\Debug\\cmTC_41657.tlog\\cmTC_41657.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-lwl02q\\cmTC_41657.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.74
+        Time Elapsed 00:00:00.70
         
       exitCode: 0
   -
@@ -1432,8 +1432,8 @@ events:
     checks:
       - "Check size of off64_t"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zgcxpp"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zgcxpp"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tewcx5"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tewcx5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1444,43 +1444,43 @@ events:
       variable: "HAVE_OFF64_T"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zgcxpp'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tewcx5'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6b067.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e3bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:04 PM.
+        Build started 10/29/2025 6:52:30 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6b067.dir\\Debug\\".
+          Creating directory "cmTC_8e3bd.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\Debug\\".
-          Creating directory "cmTC_6b067.dir\\Debug\\cmTC_6b067.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\Debug\\".
+          Creating directory "cmTC_8e3bd.dir\\Debug\\cmTC_8e3bd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6b067.dir\\Debug\\cmTC_6b067.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6b067.dir\\Debug\\cmTC_6b067.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8e3bd.dir\\Debug\\cmTC_8e3bd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8e3bd.dir\\Debug\\cmTC_8e3bd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6b067.dir\\Debug\\\\" /Fd"cmTC_6b067.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8e3bd.dir\\Debug\\\\" /Fd"cmTC_8e3bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6b067.dir\\Debug\\\\" /Fd"cmTC_6b067.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8e3bd.dir\\Debug\\\\" /Fd"cmTC_8e3bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c"
           OFF64_T.c
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj" (default targets) -- FAILED.
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zgcxpp\\cmTC_6b067.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tewcx5\\cmTC_8e3bd.vcxproj]
         
             0 Warning(s)
             5 Error(s)
@@ -1496,8 +1496,8 @@ events:
     checks:
       - "Looking for fseeko"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u51bs1"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u51bs1"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-teo4ec"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-teo4ec"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1508,44 +1508,44 @@ events:
       variable: "HAVE_FSEEKO"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u51bs1'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-teo4ec'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_19343.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ead19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:05 PM.
+        Build started 10/29/2025 6:52:30 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\cmTC_19343.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\cmTC_ead19.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_19343.dir\\Debug\\".
+          Creating directory "cmTC_ead19.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\Debug\\".
-          Creating directory "cmTC_19343.dir\\Debug\\cmTC_19343.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\Debug\\".
+          Creating directory "cmTC_ead19.dir\\Debug\\cmTC_ead19.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_19343.dir\\Debug\\cmTC_19343.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_19343.dir\\Debug\\cmTC_19343.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ead19.dir\\Debug\\cmTC_ead19.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ead19.dir\\Debug\\cmTC_ead19.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_19343.dir\\Debug\\\\" /Fd"cmTC_19343.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ead19.dir\\Debug\\\\" /Fd"cmTC_ead19.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_19343.dir\\Debug\\\\" /Fd"cmTC_19343.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ead19.dir\\Debug\\\\" /Fd"cmTC_ead19.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\Debug\\cmTC_19343.exe" /INCREMENTAL /ILK:"cmTC_19343.dir\\Debug\\cmTC_19343.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u51bs1/Debug/cmTC_19343.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-u51bs1/Debug/cmTC_19343.lib" /MACHINE:X64  /machine:x64 cmTC_19343.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\cmTC_19343.vcxproj]
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\Debug\\cmTC_19343.exe : fatal error LNK1120: 1 unresolved externals [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\cmTC_19343.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\cmTC_19343.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\Debug\\cmTC_ead19.exe" /INCREMENTAL /ILK:"cmTC_ead19.dir\\Debug\\cmTC_ead19.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-teo4ec/Debug/cmTC_ead19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-teo4ec/Debug/cmTC_ead19.lib" /MACHINE:X64  /machine:x64 cmTC_ead19.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\cmTC_ead19.vcxproj]
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\Debug\\cmTC_ead19.exe : fatal error LNK1120: 1 unresolved externals [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\cmTC_ead19.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\cmTC_ead19.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\cmTC_19343.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\cmTC_ead19.vcxproj" (default target) (1) ->
         (Link target) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\cmTC_19343.vcxproj]
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\Debug\\cmTC_19343.exe : fatal error LNK1120: 1 unresolved externals [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-u51bs1\\cmTC_19343.vcxproj]
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\cmTC_ead19.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\Debug\\cmTC_ead19.exe : fatal error LNK1120: 1 unresolved externals [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-teo4ec\\cmTC_ead19.vcxproj]
         
             0 Warning(s)
             2 Error(s)
         
-        Time Elapsed 00:00:00.64
+        Time Elapsed 00:00:00.69
         
       exitCode: 1
   -
@@ -1556,8 +1556,8 @@ events:
     checks:
       - "Looking for unistd.h"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zec4rn"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zec4rn"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-x9rkhf"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-x9rkhf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1568,40 +1568,40 @@ events:
       variable: "Z_HAVE_UNISTD_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-zec4rn'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-x9rkhf'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c99d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b1e04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:06 PM.
+        Build started 10/29/2025 6:52:31 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\cmTC_c99d2.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\cmTC_b1e04.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c99d2.dir\\Debug\\".
+          Creating directory "cmTC_b1e04.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\Debug\\".
-          Creating directory "cmTC_c99d2.dir\\Debug\\cmTC_c99d2.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\Debug\\".
+          Creating directory "cmTC_b1e04.dir\\Debug\\cmTC_b1e04.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c99d2.dir\\Debug\\cmTC_c99d2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c99d2.dir\\Debug\\cmTC_c99d2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b1e04.dir\\Debug\\cmTC_b1e04.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b1e04.dir\\Debug\\cmTC_b1e04.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c99d2.dir\\Debug\\\\" /Fd"cmTC_c99d2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b1e04.dir\\Debug\\\\" /Fd"cmTC_b1e04.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\CheckIncludeFile.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c99d2.dir\\Debug\\\\" /Fd"cmTC_c99d2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b1e04.dir\\Debug\\\\" /Fd"cmTC_b1e04.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\CheckIncludeFile.c"
           CheckIncludeFile.c
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\cmTC_c99d2.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\cmTC_c99d2.vcxproj" (default targets) -- FAILED.
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\cmTC_b1e04.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\cmTC_b1e04.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\cmTC_c99d2.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\cmTC_b1e04.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-zec4rn\\cmTC_c99d2.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\CheckIncludeFile.c(1,10): error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-x9rkhf\\cmTC_b1e04.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.63
+        Time Elapsed 00:00:00.45
         
       exitCode: 1
   -
@@ -2223,8 +2223,8 @@ events:
     checks:
       - "Performing Test C_FLAG_MP"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-mn98k8"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-mn98k8"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-anxl92"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-anxl92"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2235,40 +2235,40 @@ events:
       variable: "C_FLAG_MP"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-mn98k8'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-anxl92'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_db237.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_39a27.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:34 PM.
+        Build started 10/29/2025 6:54:48 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-mn98k8\\cmTC_db237.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-anxl92\\cmTC_39a27.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_db237.dir\\Debug\\".
+          Creating directory "cmTC_39a27.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-mn98k8\\Debug\\".
-          Creating directory "cmTC_db237.dir\\Debug\\cmTC_db237.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-anxl92\\Debug\\".
+          Creating directory "cmTC_39a27.dir\\Debug\\cmTC_39a27.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_db237.dir\\Debug\\cmTC_db237.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_db237.dir\\Debug\\cmTC_db237.tlog\\unsuccessfulbuild".
+          Creating "cmTC_39a27.dir\\Debug\\cmTC_39a27.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_39a27.dir\\Debug\\cmTC_39a27.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_db237.dir\\Debug\\\\" /Fd"cmTC_db237.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-mn98k8\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_39a27.dir\\Debug\\\\" /Fd"cmTC_39a27.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-anxl92\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_db237.dir\\Debug\\\\" /Fd"cmTC_db237.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-mn98k8\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_39a27.dir\\Debug\\\\" /Fd"cmTC_39a27.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-anxl92\\src.c"
           src.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-mn98k8\\Debug\\cmTC_db237.exe" /INCREMENTAL /ILK:"cmTC_db237.dir\\Debug\\cmTC_db237.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-mn98k8/Debug/cmTC_db237.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-mn98k8/Debug/cmTC_db237.lib" /MACHINE:X64  /machine:x64 cmTC_db237.dir\\Debug\\src.obj
-          cmTC_db237.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-mn98k8\\Debug\\cmTC_db237.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-anxl92\\Debug\\cmTC_39a27.exe" /INCREMENTAL /ILK:"cmTC_39a27.dir\\Debug\\cmTC_39a27.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-anxl92/Debug/cmTC_39a27.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-anxl92/Debug/cmTC_39a27.lib" /MACHINE:X64  /machine:x64 cmTC_39a27.dir\\Debug\\src.obj
+          cmTC_39a27.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-anxl92\\Debug\\cmTC_39a27.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_db237.dir\\Debug\\cmTC_db237.tlog\\unsuccessfulbuild".
-          Touching "cmTC_db237.dir\\Debug\\cmTC_db237.tlog\\cmTC_db237.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-mn98k8\\cmTC_db237.vcxproj" (default targets).
+          Deleting file "cmTC_39a27.dir\\Debug\\cmTC_39a27.tlog\\unsuccessfulbuild".
+          Touching "cmTC_39a27.dir\\Debug\\cmTC_39a27.tlog\\cmTC_39a27.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-anxl92\\cmTC_39a27.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.73
+        Time Elapsed 00:00:00.71
         
       exitCode: 0
   -
@@ -2283,8 +2283,8 @@ events:
     checks:
       - "Performing Test CXX_FLAG_MP"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pbztsh"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pbztsh"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-uqxqvl"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-uqxqvl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2295,34 +2295,34 @@ events:
       variable: "CXX_FLAG_MP"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pbztsh'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-uqxqvl'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f870c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_47b93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:35 PM.
+        Build started 10/29/2025 6:54:49 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pbztsh\\cmTC_f870c.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-uqxqvl\\cmTC_47b93.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_f870c.dir\\Debug\\".
+          Creating directory "cmTC_47b93.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pbztsh\\Debug\\".
-          Creating directory "cmTC_f870c.dir\\Debug\\cmTC_f870c.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-uqxqvl\\Debug\\".
+          Creating directory "cmTC_47b93.dir\\Debug\\cmTC_47b93.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f870c.dir\\Debug\\cmTC_f870c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f870c.dir\\Debug\\cmTC_f870c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_47b93.dir\\Debug\\cmTC_47b93.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_47b93.dir\\Debug\\cmTC_47b93.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_f870c.dir\\Debug\\\\" /Fd"cmTC_f870c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pbztsh\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_47b93.dir\\Debug\\\\" /Fd"cmTC_47b93.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-uqxqvl\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_f870c.dir\\Debug\\\\" /Fd"cmTC_f870c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pbztsh\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_47b93.dir\\Debug\\\\" /Fd"cmTC_47b93.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-uqxqvl\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pbztsh\\Debug\\cmTC_f870c.exe" /INCREMENTAL /ILK:"cmTC_f870c.dir\\Debug\\cmTC_f870c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pbztsh/Debug/cmTC_f870c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pbztsh/Debug/cmTC_f870c.lib" /MACHINE:X64  /machine:x64 cmTC_f870c.dir\\Debug\\src.obj
-          cmTC_f870c.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pbztsh\\Debug\\cmTC_f870c.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-uqxqvl\\Debug\\cmTC_47b93.exe" /INCREMENTAL /ILK:"cmTC_47b93.dir\\Debug\\cmTC_47b93.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-uqxqvl/Debug/cmTC_47b93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-uqxqvl/Debug/cmTC_47b93.lib" /MACHINE:X64  /machine:x64 cmTC_47b93.dir\\Debug\\src.obj
+          cmTC_47b93.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-uqxqvl\\Debug\\cmTC_47b93.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_f870c.dir\\Debug\\cmTC_f870c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_f870c.dir\\Debug\\cmTC_f870c.tlog\\cmTC_f870c.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pbztsh\\cmTC_f870c.vcxproj" (default targets).
+          Deleting file "cmTC_47b93.dir\\Debug\\cmTC_47b93.tlog\\unsuccessfulbuild".
+          Touching "cmTC_47b93.dir\\Debug\\cmTC_47b93.tlog\\cmTC_47b93.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-uqxqvl\\cmTC_47b93.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -2343,8 +2343,8 @@ events:
     checks:
       - "Performing Test C_FLAG_D_UNICODE"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-180b8a"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-180b8a"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vqc30s"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vqc30s"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /MP"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2355,40 +2355,40 @@ events:
       variable: "C_FLAG_D_UNICODE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-180b8a'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vqc30s'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_82727.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_44ec6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:36 PM.
+        Build started 10/29/2025 6:54:50 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-180b8a\\cmTC_82727.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vqc30s\\cmTC_44ec6.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_82727.dir\\Debug\\".
+          Creating directory "cmTC_44ec6.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-180b8a\\Debug\\".
-          Creating directory "cmTC_82727.dir\\Debug\\cmTC_82727.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vqc30s\\Debug\\".
+          Creating directory "cmTC_44ec6.dir\\Debug\\cmTC_44ec6.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_82727.dir\\Debug\\cmTC_82727.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_82727.dir\\Debug\\cmTC_82727.tlog\\unsuccessfulbuild".
+          Creating "cmTC_44ec6.dir\\Debug\\cmTC_44ec6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_44ec6.dir\\Debug\\cmTC_44ec6.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D C_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_82727.dir\\Debug\\\\" /Fd"cmTC_82727.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-180b8a\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D C_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_44ec6.dir\\Debug\\\\" /Fd"cmTC_44ec6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vqc30s\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D C_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_82727.dir\\Debug\\\\" /Fd"cmTC_82727.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-180b8a\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D C_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_44ec6.dir\\Debug\\\\" /Fd"cmTC_44ec6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vqc30s\\src.c"
           src.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-180b8a\\Debug\\cmTC_82727.exe" /INCREMENTAL /ILK:"cmTC_82727.dir\\Debug\\cmTC_82727.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-180b8a/Debug/cmTC_82727.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-180b8a/Debug/cmTC_82727.lib" /MACHINE:X64  /machine:x64 cmTC_82727.dir\\Debug\\src.obj
-          cmTC_82727.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-180b8a\\Debug\\cmTC_82727.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vqc30s\\Debug\\cmTC_44ec6.exe" /INCREMENTAL /ILK:"cmTC_44ec6.dir\\Debug\\cmTC_44ec6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vqc30s/Debug/cmTC_44ec6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vqc30s/Debug/cmTC_44ec6.lib" /MACHINE:X64  /machine:x64 cmTC_44ec6.dir\\Debug\\src.obj
+          cmTC_44ec6.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vqc30s\\Debug\\cmTC_44ec6.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_82727.dir\\Debug\\cmTC_82727.tlog\\unsuccessfulbuild".
-          Touching "cmTC_82727.dir\\Debug\\cmTC_82727.tlog\\cmTC_82727.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-180b8a\\cmTC_82727.vcxproj" (default targets).
+          Deleting file "cmTC_44ec6.dir\\Debug\\cmTC_44ec6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_44ec6.dir\\Debug\\cmTC_44ec6.tlog\\cmTC_44ec6.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vqc30s\\cmTC_44ec6.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.72
+        Time Elapsed 00:00:00.86
         
       exitCode: 0
   -
@@ -2403,8 +2403,8 @@ events:
     checks:
       - "Performing Test CXX_FLAG_D_UNICODE"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-np2vut"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-np2vut"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ur46q2"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ur46q2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2415,40 +2415,40 @@ events:
       variable: "CXX_FLAG_D_UNICODE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-np2vut'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ur46q2'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_984e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27b99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:37 PM.
+        Build started 10/29/2025 6:54:51 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-np2vut\\cmTC_984e6.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ur46q2\\cmTC_27b99.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_984e6.dir\\Debug\\".
+          Creating directory "cmTC_27b99.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-np2vut\\Debug\\".
-          Creating directory "cmTC_984e6.dir\\Debug\\cmTC_984e6.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ur46q2\\Debug\\".
+          Creating directory "cmTC_27b99.dir\\Debug\\cmTC_27b99.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_984e6.dir\\Debug\\cmTC_984e6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_984e6.dir\\Debug\\cmTC_984e6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_27b99.dir\\Debug\\cmTC_27b99.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_27b99.dir\\Debug\\cmTC_27b99.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D CXX_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_984e6.dir\\Debug\\\\" /Fd"cmTC_984e6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-np2vut\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D CXX_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_27b99.dir\\Debug\\\\" /Fd"cmTC_27b99.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ur46q2\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D CXX_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_984e6.dir\\Debug\\\\" /Fd"cmTC_984e6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-np2vut\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D CXX_FLAG_D_UNICODE /D _UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_27b99.dir\\Debug\\\\" /Fd"cmTC_27b99.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ur46q2\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-np2vut\\Debug\\cmTC_984e6.exe" /INCREMENTAL /ILK:"cmTC_984e6.dir\\Debug\\cmTC_984e6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-np2vut/Debug/cmTC_984e6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-np2vut/Debug/cmTC_984e6.lib" /MACHINE:X64  /machine:x64 cmTC_984e6.dir\\Debug\\src.obj
-          cmTC_984e6.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-np2vut\\Debug\\cmTC_984e6.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ur46q2\\Debug\\cmTC_27b99.exe" /INCREMENTAL /ILK:"cmTC_27b99.dir\\Debug\\cmTC_27b99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ur46q2/Debug/cmTC_27b99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ur46q2/Debug/cmTC_27b99.lib" /MACHINE:X64  /machine:x64 cmTC_27b99.dir\\Debug\\src.obj
+          cmTC_27b99.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ur46q2\\Debug\\cmTC_27b99.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_984e6.dir\\Debug\\cmTC_984e6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_984e6.dir\\Debug\\cmTC_984e6.tlog\\cmTC_984e6.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-np2vut\\cmTC_984e6.vcxproj" (default targets).
+          Deleting file "cmTC_27b99.dir\\Debug\\cmTC_27b99.tlog\\unsuccessfulbuild".
+          Touching "cmTC_27b99.dir\\Debug\\cmTC_27b99.tlog\\cmTC_27b99.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ur46q2\\cmTC_27b99.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.77
+        Time Elapsed 00:00:00.72
         
       exitCode: 0
   -
@@ -2463,8 +2463,8 @@ events:
     checks:
       - "Performing Test C_FLAG_DUNICODE"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-c4bt44"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-c4bt44"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tcwwzf"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tcwwzf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /MP /D_UNICODE"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2475,40 +2475,40 @@ events:
       variable: "C_FLAG_DUNICODE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-c4bt44'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tcwwzf'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c9957.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_42a6f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:38 PM.
+        Build started 10/29/2025 6:54:52 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4bt44\\cmTC_c9957.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tcwwzf\\cmTC_42a6f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c9957.dir\\Debug\\".
+          Creating directory "cmTC_42a6f.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4bt44\\Debug\\".
-          Creating directory "cmTC_c9957.dir\\Debug\\cmTC_c9957.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tcwwzf\\Debug\\".
+          Creating directory "cmTC_42a6f.dir\\Debug\\cmTC_42a6f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c9957.dir\\Debug\\cmTC_c9957.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c9957.dir\\Debug\\cmTC_c9957.tlog\\unsuccessfulbuild".
+          Creating "cmTC_42a6f.dir\\Debug\\cmTC_42a6f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_42a6f.dir\\Debug\\cmTC_42a6f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D C_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c9957.dir\\Debug\\\\" /Fd"cmTC_c9957.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4bt44\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D C_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_42a6f.dir\\Debug\\\\" /Fd"cmTC_42a6f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tcwwzf\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D C_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c9957.dir\\Debug\\\\" /Fd"cmTC_c9957.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4bt44\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D C_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_42a6f.dir\\Debug\\\\" /Fd"cmTC_42a6f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tcwwzf\\src.c"
           src.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4bt44\\Debug\\cmTC_c9957.exe" /INCREMENTAL /ILK:"cmTC_c9957.dir\\Debug\\cmTC_c9957.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-c4bt44/Debug/cmTC_c9957.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-c4bt44/Debug/cmTC_c9957.lib" /MACHINE:X64  /machine:x64 cmTC_c9957.dir\\Debug\\src.obj
-          cmTC_c9957.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4bt44\\Debug\\cmTC_c9957.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tcwwzf\\Debug\\cmTC_42a6f.exe" /INCREMENTAL /ILK:"cmTC_42a6f.dir\\Debug\\cmTC_42a6f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tcwwzf/Debug/cmTC_42a6f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-tcwwzf/Debug/cmTC_42a6f.lib" /MACHINE:X64  /machine:x64 cmTC_42a6f.dir\\Debug\\src.obj
+          cmTC_42a6f.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tcwwzf\\Debug\\cmTC_42a6f.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c9957.dir\\Debug\\cmTC_c9957.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c9957.dir\\Debug\\cmTC_c9957.tlog\\cmTC_c9957.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-c4bt44\\cmTC_c9957.vcxproj" (default targets).
+          Deleting file "cmTC_42a6f.dir\\Debug\\cmTC_42a6f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_42a6f.dir\\Debug\\cmTC_42a6f.tlog\\cmTC_42a6f.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-tcwwzf\\cmTC_42a6f.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.72
+        Time Elapsed 00:00:00.74
         
       exitCode: 0
   -
@@ -2523,8 +2523,8 @@ events:
     checks:
       - "Performing Test CXX_FLAG_DUNICODE"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ykxqbk"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ykxqbk"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-fpctpl"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-fpctpl"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /D_UNICODE"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2535,40 +2535,40 @@ events:
       variable: "CXX_FLAG_DUNICODE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ykxqbk'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-fpctpl'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6636b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d722.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:39 PM.
+        Build started 10/29/2025 6:54:53 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ykxqbk\\cmTC_6636b.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-fpctpl\\cmTC_5d722.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6636b.dir\\Debug\\".
+          Creating directory "cmTC_5d722.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ykxqbk\\Debug\\".
-          Creating directory "cmTC_6636b.dir\\Debug\\cmTC_6636b.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-fpctpl\\Debug\\".
+          Creating directory "cmTC_5d722.dir\\Debug\\cmTC_5d722.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6636b.dir\\Debug\\cmTC_6636b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6636b.dir\\Debug\\cmTC_6636b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5d722.dir\\Debug\\cmTC_5d722.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5d722.dir\\Debug\\cmTC_5d722.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D CXX_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_6636b.dir\\Debug\\\\" /Fd"cmTC_6636b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ykxqbk\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D CXX_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_5d722.dir\\Debug\\\\" /Fd"cmTC_5d722.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-fpctpl\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D CXX_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_6636b.dir\\Debug\\\\" /Fd"cmTC_6636b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ykxqbk\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D _UNICODE /D CXX_FLAG_DUNICODE /D UNICODE /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_5d722.dir\\Debug\\\\" /Fd"cmTC_5d722.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-fpctpl\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ykxqbk\\Debug\\cmTC_6636b.exe" /INCREMENTAL /ILK:"cmTC_6636b.dir\\Debug\\cmTC_6636b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ykxqbk/Debug/cmTC_6636b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-ykxqbk/Debug/cmTC_6636b.lib" /MACHINE:X64  /machine:x64 cmTC_6636b.dir\\Debug\\src.obj
-          cmTC_6636b.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ykxqbk\\Debug\\cmTC_6636b.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-fpctpl\\Debug\\cmTC_5d722.exe" /INCREMENTAL /ILK:"cmTC_5d722.dir\\Debug\\cmTC_5d722.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-fpctpl/Debug/cmTC_5d722.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-fpctpl/Debug/cmTC_5d722.lib" /MACHINE:X64  /machine:x64 cmTC_5d722.dir\\Debug\\src.obj
+          cmTC_5d722.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-fpctpl\\Debug\\cmTC_5d722.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_6636b.dir\\Debug\\cmTC_6636b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_6636b.dir\\Debug\\cmTC_6636b.tlog\\cmTC_6636b.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-ykxqbk\\cmTC_6636b.vcxproj" (default targets).
+          Deleting file "cmTC_5d722.dir\\Debug\\cmTC_5d722.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5d722.dir\\Debug\\cmTC_5d722.tlog\\cmTC_5d722.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-fpctpl\\cmTC_5d722.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.78
+        Time Elapsed 00:00:00.75
         
       exitCode: 0
   -
@@ -2578,8 +2578,8 @@ events:
       - "cmake/CheckCXXIntrinsicsHeader.cmake:26 (check_include_file_cxx)"
       - "CMakeLists.txt:279 (include)"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-d3ke10"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-d3ke10"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-6fl03s"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-6fl03s"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2590,40 +2590,40 @@ events:
       variable: "SEAL_INTRIN_HEADER_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-d3ke10'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-6fl03s'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16050.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7513e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:40 PM.
+        Build started 10/29/2025 6:54:54 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-d3ke10\\cmTC_16050.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-6fl03s\\cmTC_7513e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_16050.dir\\Debug\\".
+          Creating directory "cmTC_7513e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-d3ke10\\Debug\\".
-          Creating directory "cmTC_16050.dir\\Debug\\cmTC_16050.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-6fl03s\\Debug\\".
+          Creating directory "cmTC_7513e.dir\\Debug\\cmTC_7513e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_16050.dir\\Debug\\cmTC_16050.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_16050.dir\\Debug\\cmTC_16050.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7513e.dir\\Debug\\cmTC_7513e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7513e.dir\\Debug\\cmTC_7513e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_16050.dir\\Debug\\\\" /Fd"cmTC_16050.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-d3ke10\\CheckIncludeFile.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_7513e.dir\\Debug\\\\" /Fd"cmTC_7513e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-6fl03s\\CheckIncludeFile.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_16050.dir\\Debug\\\\" /Fd"cmTC_16050.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-d3ke10\\CheckIncludeFile.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_7513e.dir\\Debug\\\\" /Fd"cmTC_7513e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-6fl03s\\CheckIncludeFile.cxx"
           CheckIncludeFile.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-d3ke10\\Debug\\cmTC_16050.exe" /INCREMENTAL /ILK:"cmTC_16050.dir\\Debug\\cmTC_16050.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-d3ke10/Debug/cmTC_16050.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-d3ke10/Debug/cmTC_16050.lib" /MACHINE:X64  /machine:x64 cmTC_16050.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_16050.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-d3ke10\\Debug\\cmTC_16050.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-6fl03s\\Debug\\cmTC_7513e.exe" /INCREMENTAL /ILK:"cmTC_7513e.dir\\Debug\\cmTC_7513e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-6fl03s/Debug/cmTC_7513e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-6fl03s/Debug/cmTC_7513e.lib" /MACHINE:X64  /machine:x64 cmTC_7513e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_7513e.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-6fl03s\\Debug\\cmTC_7513e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_16050.dir\\Debug\\cmTC_16050.tlog\\unsuccessfulbuild".
-          Touching "cmTC_16050.dir\\Debug\\cmTC_16050.tlog\\cmTC_16050.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-d3ke10\\cmTC_16050.vcxproj" (default targets).
+          Deleting file "cmTC_7513e.dir\\Debug\\cmTC_7513e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7513e.dir\\Debug\\cmTC_7513e.tlog\\cmTC_7513e.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-6fl03s\\cmTC_7513e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.83
+        Time Elapsed 00:00:00.79
         
       exitCode: 0
   -
@@ -2634,8 +2634,8 @@ events:
       - "cmake/CheckCXXIntrinsicsSpecific.cmake:13 (check_cxx_source_runs)"
       - "CMakeLists.txt:288 (include)"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-izx0g0"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-izx0g0"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-cmgbg4"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-cmgbg4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2646,40 +2646,40 @@ events:
       variable: "SEAL__UMUL128_FOUND_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-izx0g0'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-cmgbg4'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b90a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3d7f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:41 PM.
+        Build started 10/29/2025 6:54:55 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-izx0g0\\cmTC_4b90a.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-cmgbg4\\cmTC_3d7f5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_4b90a.dir\\Debug\\".
+          Creating directory "cmTC_3d7f5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-izx0g0\\Debug\\".
-          Creating directory "cmTC_4b90a.dir\\Debug\\cmTC_4b90a.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-cmgbg4\\Debug\\".
+          Creating directory "cmTC_3d7f5.dir\\Debug\\cmTC_3d7f5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4b90a.dir\\Debug\\cmTC_4b90a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4b90a.dir\\Debug\\cmTC_4b90a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3d7f5.dir\\Debug\\cmTC_3d7f5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3d7f5.dir\\Debug\\cmTC_3d7f5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__UMUL128_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_4b90a.dir\\Debug\\\\" /Fd"cmTC_4b90a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-izx0g0\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__UMUL128_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_3d7f5.dir\\Debug\\\\" /Fd"cmTC_3d7f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-cmgbg4\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__UMUL128_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_4b90a.dir\\Debug\\\\" /Fd"cmTC_4b90a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-izx0g0\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__UMUL128_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_3d7f5.dir\\Debug\\\\" /Fd"cmTC_3d7f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-cmgbg4\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-izx0g0\\Debug\\cmTC_4b90a.exe" /INCREMENTAL /ILK:"cmTC_4b90a.dir\\Debug\\cmTC_4b90a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-izx0g0/Debug/cmTC_4b90a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-izx0g0/Debug/cmTC_4b90a.lib" /MACHINE:X64  /machine:x64 cmTC_4b90a.dir\\Debug\\src.obj
-          cmTC_4b90a.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-izx0g0\\Debug\\cmTC_4b90a.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-cmgbg4\\Debug\\cmTC_3d7f5.exe" /INCREMENTAL /ILK:"cmTC_3d7f5.dir\\Debug\\cmTC_3d7f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-cmgbg4/Debug/cmTC_3d7f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-cmgbg4/Debug/cmTC_3d7f5.lib" /MACHINE:X64  /machine:x64 cmTC_3d7f5.dir\\Debug\\src.obj
+          cmTC_3d7f5.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-cmgbg4\\Debug\\cmTC_3d7f5.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4b90a.dir\\Debug\\cmTC_4b90a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4b90a.dir\\Debug\\cmTC_4b90a.tlog\\cmTC_4b90a.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-izx0g0\\cmTC_4b90a.vcxproj" (default targets).
+          Deleting file "cmTC_3d7f5.dir\\Debug\\cmTC_3d7f5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3d7f5.dir\\Debug\\cmTC_3d7f5.tlog\\cmTC_3d7f5.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-cmgbg4\\cmTC_3d7f5.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.83
+        Time Elapsed 00:00:00.77
         
       exitCode: 0
     runResult:
@@ -2696,8 +2696,8 @@ events:
       - "cmake/CheckCXXIntrinsicsSpecific.cmake:26 (check_cxx_source_runs)"
       - "CMakeLists.txt:288 (include)"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pkl6nh"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pkl6nh"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q8lugh"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q8lugh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2708,40 +2708,40 @@ events:
       variable: "SEAL__BITSCANREVERSE64_FOUND_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pkl6nh'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q8lugh'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02e13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8ba7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:42 PM.
+        Build started 10/29/2025 6:54:56 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pkl6nh\\cmTC_02e13.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q8lugh\\cmTC_8ba7f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_02e13.dir\\Debug\\".
+          Creating directory "cmTC_8ba7f.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pkl6nh\\Debug\\".
-          Creating directory "cmTC_02e13.dir\\Debug\\cmTC_02e13.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q8lugh\\Debug\\".
+          Creating directory "cmTC_8ba7f.dir\\Debug\\cmTC_8ba7f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_02e13.dir\\Debug\\cmTC_02e13.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_02e13.dir\\Debug\\cmTC_02e13.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8ba7f.dir\\Debug\\cmTC_8ba7f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8ba7f.dir\\Debug\\cmTC_8ba7f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__BITSCANREVERSE64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_02e13.dir\\Debug\\\\" /Fd"cmTC_02e13.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pkl6nh\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__BITSCANREVERSE64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_8ba7f.dir\\Debug\\\\" /Fd"cmTC_8ba7f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q8lugh\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__BITSCANREVERSE64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_02e13.dir\\Debug\\\\" /Fd"cmTC_02e13.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pkl6nh\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__BITSCANREVERSE64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_8ba7f.dir\\Debug\\\\" /Fd"cmTC_8ba7f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q8lugh\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pkl6nh\\Debug\\cmTC_02e13.exe" /INCREMENTAL /ILK:"cmTC_02e13.dir\\Debug\\cmTC_02e13.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pkl6nh/Debug/cmTC_02e13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-pkl6nh/Debug/cmTC_02e13.lib" /MACHINE:X64  /machine:x64 cmTC_02e13.dir\\Debug\\src.obj
-          cmTC_02e13.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pkl6nh\\Debug\\cmTC_02e13.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q8lugh\\Debug\\cmTC_8ba7f.exe" /INCREMENTAL /ILK:"cmTC_8ba7f.dir\\Debug\\cmTC_8ba7f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q8lugh/Debug/cmTC_8ba7f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-q8lugh/Debug/cmTC_8ba7f.lib" /MACHINE:X64  /machine:x64 cmTC_8ba7f.dir\\Debug\\src.obj
+          cmTC_8ba7f.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q8lugh\\Debug\\cmTC_8ba7f.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_02e13.dir\\Debug\\cmTC_02e13.tlog\\unsuccessfulbuild".
-          Touching "cmTC_02e13.dir\\Debug\\cmTC_02e13.tlog\\cmTC_02e13.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-pkl6nh\\cmTC_02e13.vcxproj" (default targets).
+          Deleting file "cmTC_8ba7f.dir\\Debug\\cmTC_8ba7f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8ba7f.dir\\Debug\\cmTC_8ba7f.tlog\\cmTC_8ba7f.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-q8lugh\\cmTC_8ba7f.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.81
+        Time Elapsed 00:00:00.80
         
       exitCode: 0
     runResult:
@@ -2758,8 +2758,8 @@ events:
       - "cmake/CheckCXXIntrinsicsSpecific.cmake:56 (check_cxx_source_runs)"
       - "CMakeLists.txt:288 (include)"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-stock7"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-stock7"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-l5r9ma"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-l5r9ma"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2770,40 +2770,40 @@ events:
       variable: "SEAL__ADDCARRY_U64_FOUND_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-stock7'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-l5r9ma'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dbd8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7868e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:43 PM.
+        Build started 10/29/2025 6:54:58 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-stock7\\cmTC_dbd8b.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-l5r9ma\\cmTC_7868e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_dbd8b.dir\\Debug\\".
+          Creating directory "cmTC_7868e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-stock7\\Debug\\".
-          Creating directory "cmTC_dbd8b.dir\\Debug\\cmTC_dbd8b.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-l5r9ma\\Debug\\".
+          Creating directory "cmTC_7868e.dir\\Debug\\cmTC_7868e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dbd8b.dir\\Debug\\cmTC_dbd8b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dbd8b.dir\\Debug\\cmTC_dbd8b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7868e.dir\\Debug\\cmTC_7868e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7868e.dir\\Debug\\cmTC_7868e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__ADDCARRY_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_dbd8b.dir\\Debug\\\\" /Fd"cmTC_dbd8b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-stock7\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__ADDCARRY_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_7868e.dir\\Debug\\\\" /Fd"cmTC_7868e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-l5r9ma\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__ADDCARRY_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_dbd8b.dir\\Debug\\\\" /Fd"cmTC_dbd8b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-stock7\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__ADDCARRY_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_7868e.dir\\Debug\\\\" /Fd"cmTC_7868e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-l5r9ma\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-stock7\\Debug\\cmTC_dbd8b.exe" /INCREMENTAL /ILK:"cmTC_dbd8b.dir\\Debug\\cmTC_dbd8b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-stock7/Debug/cmTC_dbd8b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-stock7/Debug/cmTC_dbd8b.lib" /MACHINE:X64  /machine:x64 cmTC_dbd8b.dir\\Debug\\src.obj
-          cmTC_dbd8b.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-stock7\\Debug\\cmTC_dbd8b.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-l5r9ma\\Debug\\cmTC_7868e.exe" /INCREMENTAL /ILK:"cmTC_7868e.dir\\Debug\\cmTC_7868e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-l5r9ma/Debug/cmTC_7868e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-l5r9ma/Debug/cmTC_7868e.lib" /MACHINE:X64  /machine:x64 cmTC_7868e.dir\\Debug\\src.obj
+          cmTC_7868e.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-l5r9ma\\Debug\\cmTC_7868e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_dbd8b.dir\\Debug\\cmTC_dbd8b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_dbd8b.dir\\Debug\\cmTC_dbd8b.tlog\\cmTC_dbd8b.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-stock7\\cmTC_dbd8b.vcxproj" (default targets).
+          Deleting file "cmTC_7868e.dir\\Debug\\cmTC_7868e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7868e.dir\\Debug\\cmTC_7868e.tlog\\cmTC_7868e.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-l5r9ma\\cmTC_7868e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.91
+        Time Elapsed 00:00:00.78
         
       exitCode: 0
     runResult:
@@ -2820,8 +2820,8 @@ events:
       - "cmake/CheckCXXIntrinsicsSpecific.cmake:67 (check_cxx_source_runs)"
       - "CMakeLists.txt:288 (include)"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9zjcuj"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9zjcuj"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9w1syr"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9w1syr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2832,40 +2832,40 @@ events:
       variable: "SEAL__SUBBORROW_U64_FOUND_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9zjcuj'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9w1syr'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a9b9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b8cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:45 PM.
+        Build started 10/29/2025 6:54:59 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9zjcuj\\cmTC_a9b9d.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9w1syr\\cmTC_4b8cd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_a9b9d.dir\\Debug\\".
+          Creating directory "cmTC_4b8cd.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9zjcuj\\Debug\\".
-          Creating directory "cmTC_a9b9d.dir\\Debug\\cmTC_a9b9d.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9w1syr\\Debug\\".
+          Creating directory "cmTC_4b8cd.dir\\Debug\\cmTC_4b8cd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a9b9d.dir\\Debug\\cmTC_a9b9d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a9b9d.dir\\Debug\\cmTC_a9b9d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4b8cd.dir\\Debug\\cmTC_4b8cd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4b8cd.dir\\Debug\\cmTC_4b8cd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__SUBBORROW_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a9b9d.dir\\Debug\\\\" /Fd"cmTC_a9b9d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9zjcuj\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__SUBBORROW_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_4b8cd.dir\\Debug\\\\" /Fd"cmTC_4b8cd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9w1syr\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__SUBBORROW_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a9b9d.dir\\Debug\\\\" /Fd"cmTC_a9b9d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9zjcuj\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL__SUBBORROW_U64_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_4b8cd.dir\\Debug\\\\" /Fd"cmTC_4b8cd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9w1syr\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9zjcuj\\Debug\\cmTC_a9b9d.exe" /INCREMENTAL /ILK:"cmTC_a9b9d.dir\\Debug\\cmTC_a9b9d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9zjcuj/Debug/cmTC_a9b9d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9zjcuj/Debug/cmTC_a9b9d.lib" /MACHINE:X64  /machine:x64 cmTC_a9b9d.dir\\Debug\\src.obj
-          cmTC_a9b9d.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9zjcuj\\Debug\\cmTC_a9b9d.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9w1syr\\Debug\\cmTC_4b8cd.exe" /INCREMENTAL /ILK:"cmTC_4b8cd.dir\\Debug\\cmTC_4b8cd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9w1syr/Debug/cmTC_4b8cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-9w1syr/Debug/cmTC_4b8cd.lib" /MACHINE:X64  /machine:x64 cmTC_4b8cd.dir\\Debug\\src.obj
+          cmTC_4b8cd.vcxproj -> C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9w1syr\\Debug\\cmTC_4b8cd.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_a9b9d.dir\\Debug\\cmTC_a9b9d.tlog\\unsuccessfulbuild".
-          Touching "cmTC_a9b9d.dir\\Debug\\cmTC_a9b9d.tlog\\cmTC_a9b9d.lastbuildstate".
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9zjcuj\\cmTC_a9b9d.vcxproj" (default targets).
+          Deleting file "cmTC_4b8cd.dir\\Debug\\cmTC_4b8cd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4b8cd.dir\\Debug\\cmTC_4b8cd.tlog\\cmTC_4b8cd.lastbuildstate".
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-9w1syr\\cmTC_4b8cd.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.86
+        Time Elapsed 00:00:00.78
         
       exitCode: 0
     runResult:
@@ -2884,8 +2884,8 @@ events:
     checks:
       - "Performing Test SEAL_MEMSET_S_FOUND"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-i5hech"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-i5hech"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-qsakdt"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-qsakdt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2896,40 +2896,40 @@ events:
       variable: "SEAL_MEMSET_S_FOUND_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-i5hech'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-qsakdt'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8191.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_341e7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:46 PM.
+        Build started 10/29/2025 6:55:00 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\cmTC_e8191.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\cmTC_341e7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e8191.dir\\Debug\\".
+          Creating directory "cmTC_341e7.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\Debug\\".
-          Creating directory "cmTC_e8191.dir\\Debug\\cmTC_e8191.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\Debug\\".
+          Creating directory "cmTC_341e7.dir\\Debug\\cmTC_341e7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e8191.dir\\Debug\\cmTC_e8191.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e8191.dir\\Debug\\cmTC_e8191.tlog\\unsuccessfulbuild".
+          Creating "cmTC_341e7.dir\\Debug\\cmTC_341e7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_341e7.dir\\Debug\\cmTC_341e7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL_MEMSET_S_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_e8191.dir\\Debug\\\\" /Fd"cmTC_e8191.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL_MEMSET_S_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_341e7.dir\\Debug\\\\" /Fd"cmTC_341e7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL_MEMSET_S_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_e8191.dir\\Debug\\\\" /Fd"cmTC_e8191.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SEAL_MEMSET_S_FOUND /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_341e7.dir\\Debug\\\\" /Fd"cmTC_341e7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\src.cxx"
           src.cxx
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\src.cxx(7,17): error C3861: 'memset_s': identifier not found [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\cmTC_e8191.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\cmTC_e8191.vcxproj" (default targets) -- FAILED.
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\src.cxx(7,17): error C3861: 'memset_s': identifier not found [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\cmTC_341e7.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\cmTC_341e7.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\cmTC_e8191.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\cmTC_341e7.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\src.cxx(7,17): error C3861: 'memset_s': identifier not found [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-i5hech\\cmTC_e8191.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\src.cxx(7,17): error C3861: 'memset_s': identifier not found [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-qsakdt\\cmTC_341e7.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.50
+        Time Elapsed 00:00:00.54
         
       exitCode: 1
     runResult:
@@ -2945,8 +2945,8 @@ events:
     checks:
       - "Looking for explicit_bzero"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-1ugkam"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-1ugkam"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-db5vex"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-db5vex"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2957,40 +2957,40 @@ events:
       variable: "SEAL_EXPLICIT_BZERO_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-1ugkam'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-db5vex'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64367.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_70ebc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:47 PM.
+        Build started 10/29/2025 6:55:01 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\cmTC_64367.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\cmTC_70ebc.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_64367.dir\\Debug\\".
+          Creating directory "cmTC_70ebc.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\Debug\\".
-          Creating directory "cmTC_64367.dir\\Debug\\cmTC_64367.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\Debug\\".
+          Creating directory "cmTC_70ebc.dir\\Debug\\cmTC_70ebc.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_64367.dir\\Debug\\cmTC_64367.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_64367.dir\\Debug\\cmTC_64367.tlog\\unsuccessfulbuild".
+          Creating "cmTC_70ebc.dir\\Debug\\cmTC_70ebc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_70ebc.dir\\Debug\\cmTC_70ebc.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_64367.dir\\Debug\\\\" /Fd"cmTC_64367.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\CheckSymbolExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_70ebc.dir\\Debug\\\\" /Fd"cmTC_70ebc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_64367.dir\\Debug\\\\" /Fd"cmTC_64367.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\CheckSymbolExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_70ebc.dir\\Debug\\\\" /Fd"cmTC_70ebc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\CheckSymbolExists.c"
           CheckSymbolExists.c
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\CheckSymbolExists.c(8,19): error C2065: 'explicit_bzero': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\cmTC_64367.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\cmTC_64367.vcxproj" (default targets) -- FAILED.
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\CheckSymbolExists.c(8,19): error C2065: 'explicit_bzero': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\cmTC_70ebc.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\cmTC_70ebc.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\cmTC_64367.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\cmTC_70ebc.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\CheckSymbolExists.c(8,19): error C2065: 'explicit_bzero': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-1ugkam\\cmTC_64367.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\CheckSymbolExists.c(8,19): error C2065: 'explicit_bzero': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-db5vex\\cmTC_70ebc.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:01.24
         
       exitCode: 1
   -
@@ -3003,8 +3003,8 @@ events:
     checks:
       - "Looking for explicit_memset"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-se6tsr"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-se6tsr"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-xh37l3"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-xh37l3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -3015,40 +3015,40 @@ events:
       variable: "SEAL_EXPLICIT_MEMSET_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-se6tsr'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-xh37l3'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_192de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4a0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:48 PM.
+        Build started 10/29/2025 6:55:03 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\cmTC_192de.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\cmTC_c4a0c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_192de.dir\\Debug\\".
+          Creating directory "cmTC_c4a0c.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\Debug\\".
-          Creating directory "cmTC_192de.dir\\Debug\\cmTC_192de.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\Debug\\".
+          Creating directory "cmTC_c4a0c.dir\\Debug\\cmTC_c4a0c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_192de.dir\\Debug\\cmTC_192de.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_192de.dir\\Debug\\cmTC_192de.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c4a0c.dir\\Debug\\cmTC_c4a0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c4a0c.dir\\Debug\\cmTC_c4a0c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_192de.dir\\Debug\\\\" /Fd"cmTC_192de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\CheckSymbolExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c4a0c.dir\\Debug\\\\" /Fd"cmTC_c4a0c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\CheckSymbolExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_192de.dir\\Debug\\\\" /Fd"cmTC_192de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\CheckSymbolExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c4a0c.dir\\Debug\\\\" /Fd"cmTC_c4a0c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\CheckSymbolExists.c"
           CheckSymbolExists.c
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\CheckSymbolExists.c(8,19): error C2065: 'explicit_memset': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\cmTC_192de.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\cmTC_192de.vcxproj" (default targets) -- FAILED.
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\CheckSymbolExists.c(8,19): error C2065: 'explicit_memset': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\cmTC_c4a0c.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\cmTC_c4a0c.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\cmTC_192de.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\cmTC_c4a0c.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\CheckSymbolExists.c(8,19): error C2065: 'explicit_memset': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-se6tsr\\cmTC_192de.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\CheckSymbolExists.c(8,19): error C2065: 'explicit_memset': undeclared identifier [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-xh37l3\\cmTC_c4a0c.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.47
+        Time Elapsed 00:00:01.27
         
       exitCode: 1
   -
@@ -3063,8 +3063,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-da0z0t"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-da0z0t"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vmi8py"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vmi8py"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -3075,40 +3075,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-da0z0t'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-vmi8py'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9884.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2666b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:48 PM.
+        Build started 10/29/2025 6:55:05 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\cmTC_d9884.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\cmTC_2666b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d9884.dir\\Debug\\".
+          Creating directory "cmTC_2666b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\Debug\\".
-          Creating directory "cmTC_d9884.dir\\Debug\\cmTC_d9884.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\Debug\\".
+          Creating directory "cmTC_2666b.dir\\Debug\\cmTC_2666b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d9884.dir\\Debug\\cmTC_d9884.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d9884.dir\\Debug\\cmTC_d9884.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2666b.dir\\Debug\\cmTC_2666b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2666b.dir\\Debug\\cmTC_2666b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d9884.dir\\Debug\\\\" /Fd"cmTC_d9884.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2666b.dir\\Debug\\\\" /Fd"cmTC_2666b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d9884.dir\\Debug\\\\" /Fd"cmTC_d9884.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_2666b.dir\\Debug\\\\" /Fd"cmTC_2666b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\src.c"
           src.c
-        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\cmTC_d9884.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\cmTC_d9884.vcxproj" (default targets) -- FAILED.
+        C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\cmTC_2666b.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\cmTC_2666b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\cmTC_d9884.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\cmTC_2666b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-da0z0t\\cmTC_d9884.vcxproj]
+          C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-vmi8py\\cmTC_2666b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:01.19
         
       exitCode: 1
   -
@@ -3122,8 +3122,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-a1kyiw"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-a1kyiw"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-4xmsew"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-4xmsew"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -3134,42 +3134,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-a1kyiw'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-4xmsew'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_630b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0b733.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:49 PM.
+        Build started 10/29/2025 6:55:07 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\cmTC_630b7.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\cmTC_0b733.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_630b7.dir\\Debug\\".
+          Creating directory "cmTC_0b733.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\Debug\\".
-          Creating directory "cmTC_630b7.dir\\Debug\\cmTC_630b7.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\Debug\\".
+          Creating directory "cmTC_0b733.dir\\Debug\\cmTC_0b733.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_630b7.dir\\Debug\\cmTC_630b7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_630b7.dir\\Debug\\cmTC_630b7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0b733.dir\\Debug\\cmTC_0b733.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0b733.dir\\Debug\\cmTC_0b733.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_630b7.dir\\Debug\\\\" /Fd"cmTC_630b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0b733.dir\\Debug\\\\" /Fd"cmTC_0b733.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_630b7.dir\\Debug\\\\" /Fd"cmTC_630b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0b733.dir\\Debug\\\\" /Fd"cmTC_0b733.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\Debug\\cmTC_630b7.exe" /INCREMENTAL /ILK:"cmTC_630b7.dir\\Debug\\cmTC_630b7.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-a1kyiw/Debug/cmTC_630b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-a1kyiw/Debug/cmTC_630b7.lib" /MACHINE:X64  /machine:x64 cmTC_630b7.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\cmTC_630b7.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\cmTC_630b7.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\Debug\\cmTC_0b733.exe" /INCREMENTAL /ILK:"cmTC_0b733.dir\\Debug\\cmTC_0b733.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-4xmsew/Debug/cmTC_0b733.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-4xmsew/Debug/cmTC_0b733.lib" /MACHINE:X64  /machine:x64 cmTC_0b733.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\cmTC_0b733.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\cmTC_0b733.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\cmTC_630b7.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\cmTC_0b733.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-a1kyiw\\cmTC_630b7.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-4xmsew\\cmTC_0b733.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.59
+        Time Elapsed 00:00:01.63
         
       exitCode: 1
   -
@@ -3183,8 +3183,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-hudsac"
-      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-hudsac"
+      source: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-iqizb2"
+      binary: "C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-iqizb2"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -3195,42 +3195,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-hudsac'
+        Change Dir: 'C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-iqizb2'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6ecd2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1c234.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 10/29/2025 5:05:50 PM.
+        Build started 10/29/2025 6:55:09 PM.
         
-        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\cmTC_6ecd2.vcxproj" on node 1 (default targets).
+        Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\cmTC_1c234.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6ecd2.dir\\Debug\\".
+          Creating directory "cmTC_1c234.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\Debug\\".
-          Creating directory "cmTC_6ecd2.dir\\Debug\\cmTC_6ecd2.tlog\\".
+          Creating directory "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\Debug\\".
+          Creating directory "cmTC_1c234.dir\\Debug\\cmTC_1c234.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6ecd2.dir\\Debug\\cmTC_6ecd2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6ecd2.dir\\Debug\\cmTC_6ecd2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1c234.dir\\Debug\\cmTC_1c234.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1c234.dir\\Debug\\cmTC_1c234.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6ecd2.dir\\Debug\\\\" /Fd"cmTC_6ecd2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1c234.dir\\Debug\\\\" /Fd"cmTC_1c234.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6ecd2.dir\\Debug\\\\" /Fd"cmTC_6ecd2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1c234.dir\\Debug\\\\" /Fd"cmTC_1c234.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\Debug\\cmTC_6ecd2.exe" /INCREMENTAL /ILK:"cmTC_6ecd2.dir\\Debug\\cmTC_6ecd2.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-hudsac/Debug/cmTC_6ecd2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-hudsac/Debug/cmTC_6ecd2.lib" /MACHINE:X64  /machine:x64 cmTC_6ecd2.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\cmTC_6ecd2.vcxproj]
-        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\cmTC_6ecd2.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\Debug\\cmTC_1c234.exe" /INCREMENTAL /ILK:"cmTC_1c234.dir\\Debug\\cmTC_1c234.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-iqizb2/Debug/cmTC_1c234.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Build-Microsoft-SEAL/SEAL_Build/CMakeFiles/CMakeScratch/TryCompile-iqizb2/Debug/cmTC_1c234.lib" /MACHINE:X64  /machine:x64 cmTC_1c234.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\cmTC_1c234.vcxproj]
+        Done Building Project "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\cmTC_1c234.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\cmTC_6ecd2.vcxproj" (default target) (1) ->
+        "C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\cmTC_1c234.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-hudsac\\cmTC_6ecd2.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Build-Microsoft-SEAL\\SEAL_Build\\CMakeFiles\\CMakeScratch\\TryCompile-iqizb2\\cmTC_1c234.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.58
+        Time Elapsed 00:00:01.49
         
       exitCode: 1
 ...
