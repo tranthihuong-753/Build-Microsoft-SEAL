@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/zlib-populate"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/95692c768c268afa96019c122a985f3e/zlib-populate.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/0db9196669734af6ca699ef373774bde/zlib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/zlib-subbuild/CMakeFiles/3cbf84c59b6c2f06919806a286191b7d/zlib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib-populate"
+		],
+		"name" : "zlib-populate"
+	}
+}
