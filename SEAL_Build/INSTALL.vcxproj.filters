@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Build-Microsoft-SEAL\SEAL_Build\CMakeFiles\310c945020a7fb82085acee0a6f2a250\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CFB72E49-AFC2-3ADD-86E0-7AF66176BA47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
