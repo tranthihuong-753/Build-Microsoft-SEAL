@@ -1,0 +1,15 @@
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\adler32.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\adler32.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\compress.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\compress.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\crc32.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\crc32.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\deflate.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\deflate.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\gzclose.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\gzclose.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\gzlib.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\gzlib.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\gzread.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\gzread.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\gzwrite.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\gzwrite.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\inflate.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\inflate.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\infback.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\infback.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\inftrees.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\inftrees.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\inffast.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\inffast.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\trees.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\trees.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\uncompr.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\uncompr.obj
+C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-src\zutil.c;C:\Build-Microsoft-SEAL\SEAL_Build\thirdparty\zlib-build\zlibstatic.dir\Release\zutil.obj

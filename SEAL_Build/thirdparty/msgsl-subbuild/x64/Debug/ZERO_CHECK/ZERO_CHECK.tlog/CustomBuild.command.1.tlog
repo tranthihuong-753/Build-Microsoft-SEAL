@@ -1,0 +1,10 @@
+^C:\BUILD-MICROSOFT-SEAL\SEAL_BUILD\THIRDPARTY\MSGSL-SUBBUILD\CMAKEFILES\EDAB29F589F8C3BA603ECBCE67B8F4A9\GENERATE.STAMP.RULE
+setlocal
+C:\Users\mo\Downloads\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r2\mingw64\bin\cmake.exe -SC:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/msgsl-subbuild -BC:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/msgsl-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Build-Microsoft-SEAL/SEAL_Build/thirdparty/msgsl-subbuild/msgsl-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
