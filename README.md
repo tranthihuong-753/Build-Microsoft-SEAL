@@ -37,3 +37,16 @@
 - cd Project_Build  
 
 - cmake --build . --config Release
+
+## Tải vcpkg [Chuyen doi giua json va C++ (string, double, ...)]
+
+- git clone https://github.com/microsoft/vcpkg.git
+
+- cd vcpkg 
+
+- C:\hu\decision-tree-he\vcpkg\bootstrap-vcpkg.bat
+
+- .\vcpkg install nlohmann-json
+
+- .\vcpkg integrate install 
+
