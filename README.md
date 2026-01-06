@@ -1,6 +1,6 @@
 # Build-Microsoft-SEAL
 
-## Cấu hình SEAL 
+## CMake build SEAL
 
 - cai build tool https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
@@ -16,27 +16,17 @@
 
 - cd SEAL_Build 
 
-- cmake ..\SEAL -G "Visual Studio 17 2022" 
-
-
-## Build SEAL 
-
-- cd SEAL_Build 
+- cmake ..\SEAL -G "Visual Studio 17 2022" -DTBB_DIR=C:\hu\decision-tree-he-save\vcpkg\installed\x64-windows\share\tbb
 
 - cmake --build . --config Release
 
-## Cấu hình SEAL cho project 
+## Cấu hình project dùng SEAL
 
 - cd Project_Build  
 
 -  cmake .. -G "Visual Studio 17 2022" -DCMAKE_BUILD_TYPE=Release -DSEAL_DIR="C:/Build-Microsoft-SEAL/SEAL_Build/cmake"
 
-## Build SEAL cho project 
-
-
-- cd Project_Build  
-
-- cmake --build . --config Release
+- cmake --build . --config Release 
 
 ## Tải vcpkg [Chuyen doi giua json va C++ (string, double, ...)]
 
