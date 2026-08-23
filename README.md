@@ -98,7 +98,7 @@ double scale = pow(2.0, 40);
 | Scheme | — | **CKKS** | Số thực xấp xỉ, batching SIMD |
 | Poly modulus degree | \(N\) | **8192** ($2^{13}$) | Bậc vành \(X^N+1\); mức an toàn ~128-bit với chuỗi modulus dưới đây |
 | Coeff modulus | \(q\) | **200 bit** = \(\{60, 40, 40, 60\}\) | Hai prime 60-bit đầu/cuối giữ độ chính xác encode–decode; hai prime 40-bit giữa cho ~2–3 phép nhân (multiplicative depth) |
-| Scale | $\Delta$ | **\(2^{40}\)** | Khớp modulus 40-bit ở giữa; rescale sau mỗi nhân để \(\Delta\) không nổ |
+| Scale | $\Delta$ | **$2^{40}$** | Khớp modulus 40-bit ở giữa; rescale sau mỗi nhân để \(\Delta\) không nổ |
 | SIMD slots | \(N/2\) | **4096** | Số giá trị thực đóng gói trong một ciphertext |
 | Vector minh họa | — | `{3.0, 4.0}` | Hai slot đầu; các slot còn lại là 0 sau encode |
 
