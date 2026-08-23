@@ -277,9 +277,6 @@ Hướng mở ngoài cây: Hybrid HE (Nguyen et al., 2024) để giảm bandwidt
 2. Khoa Nguyen, Mindaugas Budzys, Eugene Frimpong, Tanveer Khan, and Antonis Michalas. *A Pervasive, Efficient and Private Future: Realizing Privacy-Preserving Machine Learning Through Hybrid Homomorphic Encryption.* 2024.
 3. Fabrianne Effendi and Anupam Chattopadhyay. *Privacy-Preserving Graph-Based Machine Learning with Fully Homomorphic Encryption for Collaborative Anti-Money Laundering.* 2024.
 4. Jung Hee Cheon, Andrey Kim, Miran Kim, and Yongsoo Song. *Homomorphic Encryption for Arithmetic of Approximate Numbers (CKKS).* ASIACRYPT 2017.
-5. Microsoft Research. *Microsoft SEAL (release 4.1.2).* https://github.com/microsoft/SEAL
-6. Trần Thị Hường. *Báo cáo thực tập nghề nghiệp: Nghiên cứu về huấn luyện và dự đoán trên dữ liệu mã hóa.* Trường Đại học CMC / Viện Nghiên cứu Ứng dụng Công nghệ CMC ATI, 2025. Giảng viên hướng dẫn: ThS. Phạm Ngọc Đông. Cán bộ hướng dẫn tại đơn vị: ThS. Nguyễn Việt Hưng.
-7. Tài liệu nội bộ ATI. *Chi tiết lý thuyết* (so sánh RSA / Paillier / BFV, Ring-LWE, Decision Tree, soft-step) và *Lên lịch lý thuyết* (lộ trình modulo → Paillier/BFV → CKKS/SEAL).
 
 ---
 
